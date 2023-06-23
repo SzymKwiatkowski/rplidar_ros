@@ -16,4 +16,4 @@ sudo chmod 666 </dev/ttyUSB*> # USB of lidar
 
 Frame Orientation
 =====================================================================
-<img src="rplidar_A1.png" alt="" height="300"/><img src="rplidar_A2.png" alt="" height="300"/>
+<img src="rplidar_A2.png" alt="" height="600"/>
