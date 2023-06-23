@@ -17,3 +17,7 @@ sudo chmod 666 </dev/ttyUSB*> # USB of lidar
 Frame Orientation
 =====================================================================
 <img src="rplidar_A2.png" alt="" height="600"/>
+
+
+# Bag file
+Test bag gile is saved in repository with name lidar_bag
