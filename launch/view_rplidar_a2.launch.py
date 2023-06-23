@@ -7,7 +7,7 @@ from launch_ros.actions import Node
 
 def generate_launch_description():
     return LaunchDescription([
-        IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/rplidar_s1.launch.py'])),
+        IncludeLaunchDescription(PythonLaunchDescriptionSource([ThisLaunchFileDir(), '/rplidar_a2.launch.py'])),
         Node(
             package='rviz2',
             executable='rviz2',
