@@ -1,42 +1,18 @@
-RPLIDAR ROS 2 Package
-=====================================================================
+# RPLidar
+Instructions for connection of RPLidar A2M12 for ROS2 Humble.
 
-ROS node and test application for RPLIDAR
+## Requirements
+```bash
+git clone https://github.com/SzymKwiatkowski/rplidar_ros
+```
+And then build project from source.
 
-Visit following Website for more details about RPLIDAR:
 
-rplidar roswiki: http://wiki.ros.org/rplidar
+After that connect lidar and run:
+```bash
+sudo chmod 666 </dev/ttyUSB*> # USB of lidar
+```
 
-rplidar HomePage:   http://www.slamtec.com/en/Lidar
-
-rplidar SDK: https://github.com/Slamtec/rplidar_sdk
-
-rplidar Tutorial:  https://github.com/robopeak/rplidar_ros/wiki
-
-Getting Started
-=====================================================================
-1) Clone this project to your colcon workspace src folder.
-2) Build the package: ```colcon build --symlink-install```
-
-Running the Package
-=====================================================================
-There are two ways to run the RPLIDAR ROS 2 Package.
-
-I. Run rplidar node and view in the rviz
-------------------------------------------------------------
-RPLIDAR A1/A2: ```ros2 launch rplidar_ros view_rplidar.launch.py```
-
-RPLIDAR A3: ```ros2 launch rplidar_ros view_rplidar_a3.launch.py```
-
-RPLIDAR S1: ```ros2 launch rplidar_ros view_rplidar_s1.launch.py```
-
-II. Run rplidar node and view using test application
-------------------------------------------------------------
-RPLIDAR A1/A2: ```ros2 launch rplidar_ros rplidar.launch.py``` OR ```ros2 run rplidar_ros rplidar_composition```
-
-RPLIDAR A3: ```ros2 launch rplidar_ros rplidar_a3.launch.py```
-
-RPLIDAR S1: ```ros2 launch rplidar_ros rplidar_s1.launch.py```
 
 Frame Orientation
 =====================================================================
